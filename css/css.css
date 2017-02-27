@@ -1,0 +1,37 @@
+@font-face {
+	font-family: massEffect;
+	src: url(../font/me123.ttf);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+	background: url(../images/main3.jpg);
+	font-family: massEffect;
+	color: white;
+}
+
+#content {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	height:auto;
+}
+
+.clear {
+	clear: both;
+}
+
+#countdown-container {
+    margin: 0 auto;
+	margin-top: 10px;
+	width: 622px;
+	text-align: center;
+}
+
+#countdown {
+	float: left;
+	padding: 5 10 0 10;
+}
