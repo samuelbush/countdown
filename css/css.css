@@ -35,3 +35,7 @@ body{
 	float: left;
 	padding: 5 10 0 10;
 }
+
+#soundcloud {
+	width: 0px;
+}
