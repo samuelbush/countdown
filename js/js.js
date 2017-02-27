@@ -27,11 +27,30 @@ function CountDownTimer(dt, id)
 		var hours = Math.floor((distance % _day) / _hour);
 		var minutes = Math.floor((distance % _hour) / _minute);
 		var seconds = Math.floor((distance % _minute) / _second);
-
-		document.getElementById("days").innerHTML = days;
-		document.getElementById("hours").innerHTML = hours;
-		document.getElementById("minutes").innerHTML = minutes;
-		document.getElementById("seconds").innerHTML = seconds;
+		
+		if (days < 10) {
+			document.getElementById("days").innerHTML = "0"+days;
+		} else {
+			document.getElementById("days").innerHTML = days;
+		}
+		
+		if (hours < 10) {
+			document.getElementById("hours").innerHTML = "0"+hours;
+		} else {
+			document.getElementById("hours").innerHTML = hours;
+		}
+		
+		if (minutes < 10){
+			document.getElementById("minutes").innerHTML = "0"+minutes;
+		} else {
+			document.getElementById("minutes").innerHTML = minutes;
+		}
+				
+		if (seconds < 10){
+			document.getElementById("seconds").innerHTML = "0"+seconds;
+		} else {
+			document.getElementById("seconds").innerHTML = seconds;
+		}
 	}
 	timer = setInterval(showRemaining, 1000);
 }
