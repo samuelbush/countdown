@@ -40,3 +40,30 @@ body{
 #soundcloud {
 	width: 0px;
 }
+
+#source {
+	clear:both;
+	opacity: 0.2;
+	margin: -35 0 0 -105;
+	width: 860px;
+	height: 155px;
+	display: block;
+	border-radius: 25px;
+}
+
+#source:hover {
+	clear:both;
+	background-color: #04011c;
+	opacity: 0.2;
+	margin: -35 0 0 -105;
+	width: 860px;
+	height: 155px;
+	display: block;
+	border-radius: 25px;
+}
+
+#source a {
+	text-decoration: none;
+	color: lightblue;
+	font-size: 30px;
+}
